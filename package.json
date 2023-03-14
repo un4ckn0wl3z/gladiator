@@ -1,0 +1,29 @@
+{
+  "name": "@unknownclub/gladiator",
+  "version": "1.0.0",
+  "description": "Simple NestJS Third-party library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/un4ckn0wl3z/gladiator.git"
+  },
+  "author": "Anuwat Khongchuai (un4ckn0wl3z)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/un4ckn0wl3z/gladiator/issues"
+  },
+  "homepage": "https://github.com/un4ckn0wl3z/gladiator#readme",
+  "dependencies": {
+    "@nestjs/common": "^9.3.9",
+    "@types/node": "^18.15.3",
+    "rimraf": "^4.4.0",
+    "rxjs": "^7.8.0",
+    "typescript": "^4.9.5"
+  }
+}
