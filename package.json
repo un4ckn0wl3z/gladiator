@@ -1,5 +1,5 @@
 {
-  "name": "@unknownclub/gladiator",
+  "name": "gladiator",
   "version": "1.0.0",
   "description": "Simple NestJS Third-party library",
   "main": "dist/index.js",
